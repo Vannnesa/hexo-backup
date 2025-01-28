@@ -160,9 +160,15 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - yijuzhan.com
   # 3 - jinrishici.com
-  source: 3
+  source: 1
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - "𝓢𝓾𝓷 𝓲𝓼 𝓱𝓸𝓹𝓮."
+    - "To resolve dilemma is to take a step forward."
+    - "羁鸟恋旧林,池鱼思故渊。"
+    - "出自 归园田居"
+    - "愿携春风绘锦云。"
+    - "出自 Vannesa"
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -257,7 +263,7 @@ footer:
   owner:
     enable: true
     since: 2019
-  custom_text:
+  custom_text: “168復機,密碼…愛你一萬年。”<br>出自 「重庆森林」
   # Copyright of theme and framework
   copyright: true
 
@@ -405,9 +411,9 @@ rightside_item_order:
 
 anchor:
   # When you scroll, the URL will update according to header id.
-  auto_update: false
+  auto_update: true
   # Click the headline to scroll and update the anchor
-  click_to_scroll: false
+  click_to_scroll: true
 
 photofigcaption: false
 
