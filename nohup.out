@@ -1,0 +1,101 @@
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.2
+  ===================================================================
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.2
+  ===================================================================
+FATAL Port 4000 has been used. Try other port instead.
+FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at Server.listen (node:net:2037:7)
+    at /opt/hexo/node_modules/hexo-server/lib/server.js:68:12
+    at Promise._execute (/opt/hexo/node_modules/bluebird/js/release/debuggability.js:384:9)
+    at Promise._resolveFromExecutor (/opt/hexo/node_modules/bluebird/js/release/promise.js:518:18)
+    at new Promise (/opt/hexo/node_modules/bluebird/js/release/promise.js:103:10)
+    at checkPort (/opt/hexo/node_modules/hexo-server/lib/server.js:65:10)
+    at module.exports (/opt/hexo/node_modules/hexo-server/lib/server.js:17:10)
+    at Hexo.tryCatcher (/opt/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/opt/hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at Hexo.call (/opt/hexo/node_modules/hexo/dist/hexo/index.js:215:28)
+    at /root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/dist/hexo.js:56:21
+    at tryCatcher (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:102:5)
+    at Async.drainQueues (/root/.config/nvm/versions/node/v21.7.3/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:15:14)
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.1
+  ===================================================================
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.1
+  ===================================================================
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.1
+  ===================================================================
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+INFO  Validating config
+INFO  
+  ===================================================================
+      #####  #    # ##### ##### ###### #####  ###### #      #   #
+      #    # #    #   #     #   #      #    # #      #       # #
+      #####  #    #   #     #   #####  #    # #####  #        #
+      #    # #    #   #     #   #      #####  #      #        #
+      #    # #    #   #     #   #      #   #  #      #        #
+      #####   ####    #     #   ###### #    # #      ######   #
+                            5.3.1
+  ===================================================================
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
