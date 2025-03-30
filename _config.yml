@@ -101,7 +101,8 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/vannnesa/vannnesa.github.io
 
 
 
@@ -150,3 +151,27 @@ swiper:
 
 butterfly_article_double_row:
   enable: true
+
+
+
+# hexo-admin authentification
+admin:
+  username: Separate
+  password_hash: $2a$10$8jcFfsAMQWgbdfd65ldfk.b4UOoCUib3UKZgC3auUX2Zhx3cIcHlq
+  secret: Vannesa
+
+postInfo:
+  date: false
+  update: false
+  wordCount: false # 设置文章字数统计为 true
+  totalCount: true # 设置站点文章总字数统计为 true
+  min2read: true # 阅读时长
+  ireadCount: true # 阅读次数
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+    display: inline
+  customEmojis:

@@ -450,7 +450,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use:
+  use: mathjax
   per_page: true
   hide_scrollbar: false
 
@@ -462,7 +462,7 @@ math:
 
   katex:
     # Enable the copy KaTeX formula
-    copy_tex: false
+    copy_tex: true
 
 # --------------------------------------
 # Search
@@ -807,13 +807,13 @@ beautify:
 font:
   global_font_size:
   code_font_size:
-  font_family:
-  code_font_family:
+  font_family: vannesa
+  code_font_family: iris
 
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link:
-  font_family:
+  font_family: vannesa
 
 # The setting of divider icon
 hr_icon:
@@ -825,10 +825,10 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true
   shake: true
-  mobile: false
+  mobile: true
 
 # Background effects
 # --------------------------------------
@@ -879,12 +879,12 @@ click_heart:
 clickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
-  fontSize: 15px
+     - I
+     - LOVE
+     - YOU
+  fontSize: 25px
   random: false
-  mobile: false
+  mobile: true
 
 # --------------------------------------
 # Lightbox Settings
@@ -972,7 +972,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar - Toast Notification
@@ -1034,6 +1034,7 @@ css_prefix: true
 inject:
   head:
      - <link rel="stylesheet" href="/css/transparent.css">
+     - <link rel='stylesheet' href="/css/fonts.css">
   bottom:
     # - <script src="xxxx"></script>
 
