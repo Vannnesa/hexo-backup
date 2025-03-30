@@ -807,8 +807,8 @@ beautify:
 font:
   global_font_size:
   code_font_size:
-  font_family:
-  code_font_family: iris
+  font_family: vannesa
+  code_font_family: JetBrainsMono
 
 # Font settings for the site title and site subtitle
 blog_title_font:
